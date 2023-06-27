@@ -35,6 +35,10 @@ header.rolagem a, header.rolagem i{
 header.rolagem .btn-contato button{
     background-color: #DB873F;
 }
+header.rolagem ul li a:hover{
+    color: #fff;
+    background-color: #DB873F;
+}
 header i{
     font-size: 30px;
     color: #fff;
@@ -51,6 +55,13 @@ header ul li{
 header ul li a{
     color: #fff;
     text-decoration: none;
+    padding: .5rem;
+    border-radius: 5px;
+    transition: .5s;
+}
+header ul li a:hover{
+    background-color: #fff;
+    color: #DB873F;
 }
 .btn-contato button{
     width: 120px;
@@ -61,6 +72,9 @@ header ul li a{
     cursor: pointer;
     transition: .2s;
     border-radius: 10px;
+}
+.btn-contato button:hover{
+    background-color: #DB873F;
 }
 
 .banner{
