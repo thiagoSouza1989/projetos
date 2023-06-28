@@ -124,11 +124,6 @@ header ul li a:hover{
     }
 }
 @media screen and (max-width: 680px){
-    .flex{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
     header ul li{
         display: flex;
         flex-direction: column;
