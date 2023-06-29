@@ -131,20 +131,13 @@ header ul li a:hover{
     }
     header #logo{
         margin-right: 5vh;
-        
-        align-items: flex-end;
-        
     }
-    .flex{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+    
     header ul li{
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin: 3px 10px;
+        margin: 2px 10px;
         transition: 0.5s;
     }
     header.rolagem{
@@ -174,9 +167,6 @@ header ul li a:hover{
         align-items: center;
         cursor: pointer;
         color: #fff;
-    }
-    #toggler{
-        align-self: flex-start;
     }
     #toggler:checked ~ .menu{
         max-height: 100%;
