@@ -124,12 +124,28 @@ header ul li a:hover{
     }
 }
 @media screen and (max-width: 680px){
+    header{
+        width: 100%;
+        padding: 20px 4%;
+        position: fixed;
+    }
+    header i{
+        margin-right: 50vh;
+    }
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     header ul li{
         display: flex;
         flex-direction: column;
         text-align: center;
         margin: 0 10px;
         transition: 0.5s;
+    }
+    header.rolagem{
+        padding: 10px 4%;
     }
     .banner h1{
         font-size: 3em;
