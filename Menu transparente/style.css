@@ -128,10 +128,10 @@ header ul li a:hover{
         width: 100%;
         padding: 20px 4%;
         position: fixed;
-    }
+    }/*
     header i{
         margin-right: 50vh;
-    }
+    }*/
     .flex{
         display: flex;
         align-items: center;
