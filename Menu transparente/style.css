@@ -128,10 +128,13 @@ header ul li a:hover{
         width: 100%;
         padding: 20px 4%;
         position: fixed;
-    }/*
-    header i{
-        margin-right: 50vh;
-    }*/
+    }
+    header #logo{
+        margin-right: 5vh;
+        
+        align-items: flex-end;
+        
+    }
     .flex{
         display: flex;
         align-items: center;
@@ -141,7 +144,7 @@ header ul li a:hover{
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin: 0 10px;
+        margin: 3px 10px;
         transition: 0.5s;
     }
     header.rolagem{
@@ -171,6 +174,9 @@ header ul li a:hover{
         align-items: center;
         cursor: pointer;
         color: #fff;
+    }
+    #toggler{
+        align-self: flex-start;
     }
     #toggler:checked ~ .menu{
         max-height: 100%;
