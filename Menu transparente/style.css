@@ -117,9 +117,13 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-.footer .slogan-company{
-    margin-right: 5rem;
+.footer .informations{
+    display: flex;
 }
+.footer .informations div{
+    margin-left: 3rem;
+}
+
 
 
 .line{
@@ -211,11 +215,21 @@ footer{
     }
 
     .footer{
+        display: block;
+    }
+
+    .footer .slogan-company{
+        margin-bottom: 2rem;
+    }
+    .footer .informations{
         display: grid;
         grid-gap: 2rem;
         grid-template-columns: repeat(2, 1fr);
-        
     }
+    .footer .informations div{
+        margin-left: 0;
+    }
+    
     
     .links{
         margin: 1rem 0;
