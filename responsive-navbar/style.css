@@ -74,6 +74,20 @@ header{
     scale: 0.95;
 }
 
+section#hero{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+#hero h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
 /*=========DROPDOWN==========*/
 .dropdown_menu{
     display: none;
@@ -114,5 +128,11 @@ header{
     }
     .dropdown_menu{
         display: block;
+    }
+}
+@media(max-width: 576px){
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
     }
 }
