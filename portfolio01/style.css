@@ -38,6 +38,7 @@ section{
     padding: 2rem 9%;
     background: var(--bg-color);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
@@ -133,4 +134,21 @@ span{
 }
 .btn:hover{
     box-shadow: none;
+}
+
+@media(max-width:900px){
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        display: none;
+    }
+    #menu-icon{
+        display: block;
+    }
+    .home-img img{
+        width: 70vw;
+        margin-top: 30px;
+    }
 }
